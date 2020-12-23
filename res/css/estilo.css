@@ -65,34 +65,73 @@ nav ul li a:hover {
 
 /* Principal
 -------------------------------------*/
+#principal {
+	margin-top: 99px;
+}
+
 #conteudo {
-	width: 700px;
+	width: 520px;
 	float: left;
 	margin-bottom: 20px;
 }
 
 aside {
-	width: 350px;
+	width: 370px;
 	float: right;
 	/* background: #ebe7dd; */
+	padding-left: : 3px;
 	padding-bottom: 30px;
 	margin-bottom: 20px;
 }
 
+#optcontainer {
+	position: relative;
+}
+
+#opttext-b {
+	position: absolute; 
+  	font-size: 20px;
+  	font-weight: bolder;
+  	margin-left: -123px;
+  	padding-top: 20px;
+}
+
+#opttext-c {
+	position: absolute; 
+  	font-size: 20px;
+  	font-weight: bolder;
+  	margin-left: -147px;
+  	padding-top: 20px;
+}
+
+#opttext-o {
+	position: absolute; 
+  	font-size: 20px;
+  	font-weight: bolder;
+  	margin-left: -122px;
+  	padding-top: 20px;
+}
+
+#optimage {
+	position: relative;
+	padding-left: 7px;
+	padding-right: 20px;
+}
+
 section#galeria {
 	padding: 2px 2px 2px 2px;
-	margin: 5px 0 5px 0;
+	margin: 26px 0 5px 0;
 }
 
 section#galeria a {
 	/*display: block;*/
 	float: left;
-	padding: 17px 5px 1px 5px;
-	margin: 10px 0 0 12px;
+	padding: 17px 0 1px 5px;
+	/*margin: 10px 0 0 12px;*/
 }
 
 section#galeria img {
-	margin-left: 7px;
+	margin-left: 10px;
 	margin-top: 1px;
 }
 
