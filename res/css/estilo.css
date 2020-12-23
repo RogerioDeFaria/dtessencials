@@ -88,6 +88,10 @@ aside {
 	position: relative;
 }
 
+.sec-overlay {
+	margin-top: 60px;
+}
+
 #opttext-b {
 	position: absolute; 
   	font-size: 20px;
